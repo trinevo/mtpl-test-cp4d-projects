@@ -22,7 +22,7 @@
       "properties": {
         "password": "{wdpaes256}Fz6ucalB7iJM9lcPG3iYxHalJyilPXtE2B/RS3QijuU=",
         "jdbc_properties": "LoginTimeout=30\nQueryTimeout=300",
-        "jar_uris": "/v2/asset_files/dbdrivers/db2jcc4.jar?account_id=999&root=true&signature=e3dkcGFlczI1Nn00RXpNbWdibUlmTEFMUzRpa0pkMVJ6YnV3a2R0WVRGNUZVYUtKbEZYMXF4WHFhMGF0OFNLV2YyclBUcjh5YWFuNVN6VEZvVTM1bDRZV1J1WDRvcitCa1ROYkFzY0hUMnlTbWMyYW0reEZsOXh5MXFiS3U4ZFdRenJsWHh3TGd0WWMvZmtWR1lNQVNUclJEeDBuR1RMdXlHNFhrTXR4NStlY2Q3YUk2L0FqVEE9,/v2/asset_files/postgresql-42.3.3.jar?account_id=999&root=true&signature=e3dkcGFlczI1Nn1SWEgyV0NlSUtxN0FFempEbUJmRllDa3N5WmllNDdEUlpqdWNPcDdHTER4ZlVOZkI0Mmh5ZENSU1lTejArWGN4c3pxaG9hTmNPQUhQU1c4SkViTmlXYkpxY1VLaU1iT053aldFT01CNldqbHhUdkJEeUwvRWl4cE9RSE9naTJiYktLUUVqLzF0U0ZxRnVpSFlhQzZkdUtiOUVnVzExSlMwVGNvM1kzMmkzUTA9",
+        "jar_uris": "/v2/connections/files/db2jcc4.jar?hash=e3dkcGFlczI1Nn1vUTUyMHpPSWVEZS96YUhRV2JHbEVZdk5Vam1rZVNpaHIzd3doQ05KTkhiUmhaMFZFNHY5VXQ5WVE0UDhSUU5hbXNybzZHcHhpNTdtS3F5VUV6d0ZKTjgvL24vUDJ1TlMvakU2SHdpR1VROXRscVhzK3JVVHlDa2R0QkViRUc1a0wrTktablhxOTUxTHhhWXJlVDNtNk1oeDVZQkcvZDM1M1lEcHFIdHRWVkE9&digest=RJuqOO09g31JZWM21zI6ZefSq79D9Aewv8Nm0VALxEUx_7d17b9f0xc3bdx4d09x8a7ex8136f1f42eca,/v2/asset_files/postgresql-42.3.3.jar?account_id=999&root=true&signature=e3dkcGFlczI1Nn1SWEgyV0NlSUtxN0FFempEbUJmRllDa3N5WmllNDdEUlpqdWNPcDdHTER4ZlVOZkI0Mmh5ZENSU1lTejArWGN4c3pxaG9hTmNPQUhQU1c4SkViTmlXYkpxY1VLaU1iT053aldFT01CNldqbHhUdkJEeUwvRWl4cE9RSE9naTJiYktLUUVqLzF0U0ZxRnVpSFlhQzZkdUtiOUVnVzExSlMwVGNvM1kzMmkzUTA9",
         "catalog_support": "false",
         "jdbc_driver": "com.ibm.connect.driver.jdbc.postgresql.PostgreSQLDriver",
         "ssl": "false",

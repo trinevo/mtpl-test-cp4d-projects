@@ -23,7 +23,7 @@
       "properties": {
         "password": "{wdpaes256}1fi1++WEaLvD2+uME0Yj6QUrAD4oTCUX4E8TGT0RPhI=",
         "jdbc_properties": "loginTimeout=60",
-        "jar_uris": "/v2/asset_files/dbdrivers/nzjdbc3.jar?account_id=999&root=true&signature=D5qmM%2ByQvWHKoqYkpkqINA%3D%3D%3AhmJDGV1clHwYhIq1sLMWlg4XVJVFBLDIx37hIuSePi8kwPF656J4Uuo3qwoD4lxFkeLZhweH1Ock46ld0elh9KfIRqjvLLG4J8YYh%2B1wCId5b6m5ywzqMotrjauke%2B%2Fb%2F4gHpUTrAG8ipO4JnIo9pVp7jv3SxGr6kIBL,/v2/asset_files/dbdrivers/ImpalaJDBC42-2-6-29.jar?account_id=999&root=true&signature=e3dkcGFlczI1Nn10eHB5amNDWGZZRlRNWWp0M3ZQdFQwekF5c3c1SXA5V05JNUpPbVQrKzUwQTRmMzVjaWdBN0pib0poSTZiMENZSU1YSUFYNWRVUEEzZnFXQTFYWVZJYm5KcUJ3YzN0MjZuemEzVzYvMXYxNEFscjR2SHZTSWlwR2tocFNvTW1oMnFPWlNKc0F4NkZzK3VneXZIUTRuRzdWbFRpZlBRRjAzOGtVUTBlc0NVTnc9",
+        "jar_uris": "/v2/connections/files/nzjdbc3.jar?hash=e3dkcGFlczI1Nn1Eb1YvTXY4a3pYSzBLMzhySzQ1N1k1MC9UMlJLSjBpOEdMeXBDUzBIeDFCYjlZd09UZGsrQk9IRXE3UVAzakROOGFEaEErdEN5RGtseW5aeWZSZUdFTzVxZzJHbmsvY0Y2RnQ2QUU3S2JOWS9WQkhBZzVxZDZZcE1mL2R1UjJSTjdWQkxDNzV0V1cwMnE2T01TU0RxMmwvaXJoZGJWYXYrZk5VVlNGNFRqVEE9&digest=RJuqOO09g31JZWM21zI6ZefSq79D9Aewv8Nm0VALxEUx_089766d0xd275x4f6fxa39ex1ea4bf6ef1d8,/v2/connections/files/ImpalaJDBC42-2-6-29.jar?hash=e3dkcGFlczI1Nn04UURKS1I3K2Z3aEExN2gydEFZeHZnYm42aDZLNml1MHBvQnVRbG54SUVzZHlLT2piT0hTOHl2MW5zZzJQQjVpWXJuZUEzaGlkL3NFYktQYk1rbjVuUUo5RHA0U0p4dnczSFFHMy9xT3ZBcHRVQWdBY2ZEK0gyZFphWjN4bytTeHRvQW5yZyt3ZWR0YXlxTmU3R0VMKzZaVUhLSUhLdVEvWGVFejFEd0pxWWs9&digest=Lxd1I901rIFGXwiq5w0ThW70sMHaLgfgVNYiaMwIVXox_bdfc8b34x375bx435cx9459x63dcdda2d0a7",
         "jdbc_driver": "org.netezza.Driver",
         "ssl": "false",
         "jdbc_url": "jdbc:netezza://sponson1.fyre.ibm.com:5480/conndb",

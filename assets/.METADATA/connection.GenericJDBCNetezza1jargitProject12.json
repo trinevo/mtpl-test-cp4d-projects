@@ -23,7 +23,7 @@
       "properties": {
         "password": "{wdpaes256}dAKw1zgfC2h4krCIJCcIa7nAMpFpcd9hTTG3v6oR+Ag=",
         "jdbc_properties": "loginTimeout=60",
-        "jar_uris": "/v2/asset_files/dbdrivers/nzjdbc3.jar?account_id=999&root=true&signature=D5qmM%2ByQvWHKoqYkpkqINA%3D%3D%3AhmJDGV1clHwYhIq1sLMWlg4XVJVFBLDIx37hIuSePi8kwPF656J4Uuo3qwoD4lxFkeLZhweH1Ock46ld0elh9KfIRqjvLLG4J8YYh%2B1wCId5b6m5ywzqMotrjauke%2B%2Fb%2F4gHpUTrAG8ipO4JnIo9pVp7jv3SxGr6kIBL",
+        "jar_uris": "/v2/connections/files/nzjdbc3.jar?hash=e3dkcGFlczI1Nn1Eb1YvTXY4a3pYSzBLMzhySzQ1N1k1MC9UMlJLSjBpOEdMeXBDUzBIeDFCYjlZd09UZGsrQk9IRXE3UVAzakROOGFEaEErdEN5RGtseW5aeWZSZUdFTzVxZzJHbmsvY0Y2RnQ2QUU3S2JOWS9WQkhBZzVxZDZZcE1mL2R1UjJSTjdWQkxDNzV0V1cwMnE2T01TU0RxMmwvaXJoZGJWYXYrZk5VVlNGNFRqVEE9&digest=RJuqOO09g31JZWM21zI6ZefSq79D9Aewv8Nm0VALxEUx_089766d0xd275x4f6fxa39ex1ea4bf6ef1d8",
         "jdbc_driver": "org.netezza.Driver",
         "ssl": "false",
         "jdbc_url": "jdbc:netezza://sponson1.fyre.ibm.com:5480/conndb",
