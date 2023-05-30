@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "asset_type": "connection",
+    "name": "Generic JDBC Netezza-2jars-git-Project-13",
+    "description": "Generic JDBC Netezza Connection for migration test",
+    "origin_country": "pl",
+    "rov": {
+      "mode": 0
+    },
+    "resource_key": "0000:0000:0000:0000:0000:FFFF:091E:B53B|5480|conndb",
+    "asset_category": "USER",
+    "created_at": "2023-05-30T10:24:17Z",
+    "created": 1685442257766,
+    "asset_id": "connection.GenericJDBCNetezza2jarsgitProject13",
+    "asset_attributes": [
+      "connection"
+    ]
+  },
+  "entity": {
+    "connection": {
+      "datasource_type": "e59b1c36-6f30-4879-9f74-7e81dde4cca6",
+      "context": "source,target",
+      "properties": {
+        "password": "{wdpaes256}6cjVEL0J/RSPelDRXiQXMtSpX09HWd1FHIt0f7dks6s=",
+        "jdbc_properties": "loginTimeout=60",
+        "jar_uris": "/v2/connections/files/nzjdbc3.jar?hash=e3dkcGFlczI1Nn1HcHluVzY4ZFZPcnhPWGs1WXZmNjBrVy9BU0NqZjFPVDVESWp6R0N0em1NbUxjRkFIaXJhRFNmK1U3aUkvQUVndTg2OUVwSW93VjVZNlhqYm9KMVlmVlZEMDhhV2JzZmlwVis3L0dJTmpMc1ZFR0lHYjd3RjJhekJiZ1lYMHBxdjFQL2ZnWHRhQlUxbEZWMjM5U0R6dDg1THhENG0wclRxUlJwSngxMktiZEk9&digest=RJuqOO09g31JZWM21zI6ZefSq79D9Aewv8Nm0VALxEUx_089766d0xd275x4f6fxa39ex1ea4bf6ef1d8,/v2/connections/files/ImpalaJDBC42-2-6-29.jar?hash=e3dkcGFlczI1Nn1WTXV6NFpuVWw2M1pRRzg2b1pzSTM5QVVUK0VPNGtJNGEzZC9DckUyU1orWmhnUTBGTmVNWFpuN1U4eWRNYkVmMVFjaUhOb3hxdUl5eGtVSmVJSHRaMzhyTStSMHoyeWlIVmhOQVNhQy9lRXMyNHQzUFlXeEUwNFNuTEFqUEVocjRZWXJwamdZMGFzNFlrMU5VSXdIWmdIeGJqNTN1TWFXeVQ0dkZRdHRFblk9&digest=Lxd1I901rIFGXwiq5w0ThW70sMHaLgfgVNYiaMwIVXox_bdfc8b34x375bx435cx9459x63dcdda2d0a7",
+        "jdbc_driver": "org.netezza.Driver",
+        "ssl": "false",
+        "jdbc_url": "jdbc:netezza://sponson1.fyre.ibm.com:5480/conndb",
+        "username": "admin"
+      },
+      "flags": []
+    }
+  },
+  "attachments": []
+}
