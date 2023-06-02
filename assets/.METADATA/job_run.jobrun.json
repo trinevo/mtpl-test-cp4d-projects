@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "name": "job run",
+    "asset_type": "job_run",
+    "origin_country": "us",
+    "asset_category": "USER",
+    "created_at": "2023-06-02T12:24:52Z",
+    "created": 1685708692789,
+    "asset_id": "job_run.jobrun",
+    "asset_attributes": [
+      "job_run"
+    ]
+  },
+  "entity": {
+    "job_run": {
+      "job_ref": "job.Sortbyname",
+      "job_name": "Sort by name",
+      "job_type": "data_flow",
+      "state": "Completed",
+      "isScheduledRun": false,
+      "configuration": {
+        "env_id": "shaper_rruntime",
+        "env_name": "Default Data Refinery XS",
+        "env_type": "shaper_rruntime",
+        "env_variables": [],
+        "asset_ref": "data_flow.ACCOUNTflow",
+        "nodes": [
+          {
+            "id": "source1",
+            "data_asset": {
+              "properties": {
+                "schema_name": "CONNDEV",
+                "table_name": "ACCOUNT"
+              },
+              "ref": "data_asset.ACCOUNT"
+            },
+            "nodeType": "source"
+          },
+          {
+            "id": "target1",
+            "data_asset": {
+              "properties": {
+                "file_format": "csv",
+                "mode": "overwrite",
+                "first_line_header": true,
+                "name": "ACCOUNT_shaped"
+              }
+            },
+            "nodeType": "target"
+          }
+        ],
+        "outputs": {
+          "total_rows_read": 5445,
+          "total_bytes_read": 1173190,
+          "total_bytes_written": 1173190,
+          "total_rows_written": 5445,
+          "engine_elapsed_secs": 30
+        }
+      },
+      "project_name": "JDBC-Drivers-Migration-PRJ-Git",
+      "runtime_job_id": "ae5021ea-4701-458d-b011-908b153d8ef6",
+      "last_state_change_timestamp": "2023-06-02T12:25:47Z",
+      "duration": 30,
+      "data_flow_job_output": {
+        "total_rows_read": 5445,
+        "total_bytes_read": 1173190,
+        "total_bytes_written": 1173190,
+        "total_rows_written": 5445,
+        "engine_elapsed_secs": 30
+      }
+    }
+  },
+  "attachments": [
+    {
+      "asset_type": "job_run",
+      "name": "job_run.jobrun",
+      "description": "log for job run job_run.jobrun",
+      "mime": "application/json",
+      "data_partitions": 0,
+      "test_doc": 0,
+      "private_url": true,
+      "object_key": "job_run/log/job_run.jobrun",
+      "object_key_is_read_only": false,
+      "is_partitioned": true,
+      "created_at": "2023-06-02T12:25:47Z",
+      "id": "2d6d642f-9a85-4e02-9c39-bbaafe0dba63",
+      "is_managed": false,
+      "is_referenced": true,
+      "is_remote": false
+    }
+  ]
+}
