@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "asset_type": "connection",
+    "name": "Exasol-1jar-platform-cams-1",
+    "origin_country": "pl",
+    "rov": {
+      "mode": 0
+    },
+    "resource_key": "0000:0000:0000:0000:0000:FFFF:091E:1BAB|9563|EXA_DB",
+    "asset_category": "USER",
+    "created_at": "2023-06-02T12:31:39Z",
+    "created": 1685709099657,
+    "asset_id": "connection.Exasol1jarplatformcams1",
+    "asset_attributes": [
+      "connection"
+    ]
+  },
+  "entity": {
+    "connection": {
+      "datasource_type": "8136a39f-465f-43a3-a606-ce238fb19116",
+      "context": "source,target",
+      "properties": {},
+      "flags": [
+        "personal_credentials"
+      ],
+      "ref_catalog_id": "bfb2f003-e8df-46b7-a8e5-b8a004639a12",
+      "ref_asset_id": "b794fe8a-c42b-47d6-a2c8-5fc90aecde04"
+    }
+  },
+  "attachments": []
+}
