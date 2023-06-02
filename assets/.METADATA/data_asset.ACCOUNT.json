@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "name": "ACCOUNT",
+    "asset_type": "data_asset",
+    "origin_country": "none",
+    "tags": [
+      "connected-data"
+    ],
+    "asset_category": "USER",
+    "created_at": "2023-06-02T12:21:43Z",
+    "created": 1685708503984,
+    "asset_id": "data_asset.ACCOUNT",
+    "asset_attributes": [
+      "data_asset"
+    ]
+  },
+  "entity": {
+    "data_asset": {
+      "dataset": true,
+      "mime_type": "application/x-ibm-rel-table",
+      "columns": [
+        {
+          "name": "ACCOUNT_ID",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "ACCOUNT_CLASSIFICATION",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "ACCOUNT_NAME",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "ACCOUNT_OWNER_NAME",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "BILLING_CITY",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "BILLING_COUNTRY",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "BILLING_POSTAL_CODE",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "BILLING_STATE",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "BILLING_STREET",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "CDH_DUNS_NUMBER",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "FINAL_GLOBAL_CUSTOMER_NAME",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "NAPS_CUSTOMER_NAME",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "PARENT_COMPANY_BUSINESS_NAME",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "SF_PARENT_ACCOUNT_NAME",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "ROW_CREATE_TS",
+          "type": {
+            "type": "timestamp",
+            "length": 0,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "ROW_UPDATE_TS",
+          "type": {
+            "type": "timestamp",
+            "length": 0,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "ROW_STATUS_CD",
+          "type": {
+            "type": "varchar",
+            "length": 1,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "IBM_SAP_CUSTOMER_NO",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        }
+      ]
+    }
+  },
+  "attachments": [
+    {
+      "asset_type": "data_asset",
+      "name": "ACCOUNT",
+      "description": "remote",
+      "connection_id": "connection.Exasol1jarregulargit1",
+      "connection_path": "/CONNDEV/ACCOUNT",
+      "is_partitioned": false,
+      "mime": "application/x-ibm-rel-table",
+      "created_at": "2023-06-02T12:21:44Z",
+      "id": "5a6bb6c7-3242-49a3-84fc-21c209e2264f",
+      "is_managed": false,
+      "is_referenced": false,
+      "is_remote": true
+    }
+  ]
+}

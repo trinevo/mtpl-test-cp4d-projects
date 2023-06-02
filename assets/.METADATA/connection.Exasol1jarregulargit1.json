@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "asset_type": "connection",
+    "name": "Exasol-1jar-regular-git-1",
+    "origin_country": "pl",
+    "rov": {
+      "mode": 0
+    },
+    "resource_key": "0000:0000:0000:0000:0000:FFFF:091E:1BAB|9563|EXA_DB",
+    "asset_category": "USER",
+    "created_at": "2023-06-02T12:20:24Z",
+    "created": 1685708424456,
+    "asset_id": "connection.Exasol1jarregulargit1",
+    "asset_attributes": [
+      "connection"
+    ]
+  },
+  "entity": {
+    "connection": {
+      "datasource_type": "8136a39f-465f-43a3-a606-ce238fb19116",
+      "context": "source,target",
+      "properties": {
+        "database": "EXA_DB",
+        "port": "9563",
+        "fingerprint": "D22A6F3E0ED40442F89391AC0C56907EEA4F36D2D73BE3626F6949EDB1FD318B",
+        "host": "uprights1.fyre.ibm.com",
+        "jar_uris": "/v2/connections/files/exasol-jdbc-7.1.4.jar?hash=e3dkcGFlczI1Nn11REJCSFB1L3FGUXhUd0Q0ak9RNzQ3L3ZNTnFaSnZiZFBBeGdZUE1TME4wbTdDaFVlOW1TQXdtTUhmclRheFRIM1A2bE1XV251dU1iODFRV3NrL09tbEx4eFk0NW5ROG1vbjU5dDRQUW55NlJGNE0zTEhXbWNFbmE2UVBDVmZXOG94RmQ5VmhBUjJUSXJFMW9VVjVOTUE9PQ==",
+        "ssl": "false"
+      },
+      "flags": [
+        "personal_credentials"
+      ]
+    }
+  },
+  "attachments": []
+}
