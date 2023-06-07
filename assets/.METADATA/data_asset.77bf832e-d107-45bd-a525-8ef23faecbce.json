@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "name": "EMP",
+    "asset_type": "data_asset",
+    "origin_country": "none",
+    "tags": [
+      "connected-data"
+    ],
+    "asset_category": "USER",
+    "created_at": "2023-06-07T15:40:24Z",
+    "created": 1686152424865,
+    "asset_id": "data_asset.77bf832e-d107-45bd-a525-8ef23faecbce",
+    "asset_attributes": [
+      "data_asset"
+    ]
+  },
+  "entity": {
+    "data_asset": {
+      "dataset": true,
+      "mime_type": "application/x-ibm-rel-table",
+      "columns": [
+        {
+          "name": "EMPNO",
+          "type": {
+            "type": "double",
+            "length": 0,
+            "scale": 0,
+            "nullable": true,
+            "signed": true
+          }
+        },
+        {
+          "name": "FIRSTNAME",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "MIDINIT",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "LASTNAME",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "WORKDEPT",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "PHONENO",
+          "type": {
+            "type": "double",
+            "length": 0,
+            "scale": 0,
+            "nullable": true,
+            "signed": true
+          }
+        },
+        {
+          "name": "HIREDATE",
+          "type": {
+            "type": "date",
+            "length": 0,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "JOB",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "EDLEVEL",
+          "type": {
+            "type": "bigint",
+            "length": 18,
+            "scale": 0,
+            "nullable": true,
+            "signed": true
+          }
+        },
+        {
+          "name": "SEX",
+          "type": {
+            "type": "varchar",
+            "length": 100,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "BIRTHDATE",
+          "type": {
+            "type": "date",
+            "length": 0,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "SALARY",
+          "type": {
+            "type": "bigint",
+            "length": 18,
+            "scale": 0,
+            "nullable": true,
+            "signed": true
+          }
+        },
+        {
+          "name": "BONUS",
+          "type": {
+            "type": "bigint",
+            "length": 18,
+            "scale": 0,
+            "nullable": true,
+            "signed": true
+          }
+        },
+        {
+          "name": "COMM",
+          "type": {
+            "type": "bigint",
+            "length": 18,
+            "scale": 0,
+            "nullable": true,
+            "signed": true
+          }
+        }
+      ]
+    }
+  },
+  "attachments": [
+    {
+      "asset_type": "data_asset",
+      "name": "EMP",
+      "description": "remote",
+      "connection_id": "connection.Exasol1jargitproject11",
+      "connection_path": "/CONNDEV/EMP",
+      "is_partitioned": false,
+      "mime": "application/x-ibm-rel-table",
+      "created_at": "2023-06-07T15:40:24Z",
+      "id": "38995547-f605-4e70-bb6f-fab3cb6589f7",
+      "is_managed": false,
+      "is_referenced": false,
+      "is_remote": true
+    }
+  ]
+}

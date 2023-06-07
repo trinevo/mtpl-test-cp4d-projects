@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "asset_type": "connection",
+    "name": "Exasol-1jar-git_project-11",
+    "description": "Exasol-1jar connection for migration test",
+    "origin_country": "pl",
+    "rov": {
+      "mode": 0
+    },
+    "resource_key": "0000:0000:0000:0000:0000:FFFF:091E:1BAB|9563|EXA_DB",
+    "asset_category": "USER",
+    "created_at": "2023-06-07T15:39:16Z",
+    "created": 1686152356880,
+    "asset_id": "connection.Exasol1jargitproject11",
+    "asset_attributes": [
+      "connection"
+    ]
+  },
+  "entity": {
+    "connection": {
+      "datasource_type": "8136a39f-465f-43a3-a606-ce238fb19116",
+      "context": "source,target",
+      "properties": {
+        "database": "EXA_DB",
+        "port": "9563",
+        "fingerprint": "D22A6F3E0ED40442F89391AC0C56907EEA4F36D2D73BE3626F6949EDB1FD318B",
+        "host": "uprights1.fyre.ibm.com",
+        "jar_uris": "/v2/asset_files/dbdrivers/exasol-jdbc-7.1.4.jar?account_id=999&root=true&signature=srFCNOtBwhfa0I7ZwsB0zg%3D%3D%3AxWSOJEaiTmVu9LJ4NmHOhaVtv%2Fc%2B5d7PGq%2FCitWtZz5KWQP%2FHPRvlg6bRCxIp1Rz%2BFV6vYYmJvoTYuiruuvDN5AEx9UQotzk8xx%2FiL2mZy0Xtipvk6TCo932QimkCjGSO%2FRfraxnrXDFHOCuHyUqpmdNIn4huToLcDuv95C4hPdNTNQ86g%3D%3D",
+        "ssl": "false"
+      },
+      "flags": [
+        "personal_credentials"
+      ]
+    }
+  },
+  "attachments": []
+}
